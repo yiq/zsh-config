@@ -1,18 +1,13 @@
-source ~/.zsh/colors.zsh
-source ~/.zsh/setopt.zsh
-source ~/.zsh/exports.zsh
-source ~/.zsh/prompt.zsh
-source ~/.zsh/completion.zsh
-source ~/.zsh/aliases.zsh
-source ~/.zsh/bindkeys.zsh
-source ~/.zsh/functions.zsh
-source ~/.zsh/history.zsh
-source ~/.zsh/zsh_hooks.zsh
-source ~/.zsh/hitch.zsh
-source /opt/boxen/env.sh
-
-### Added by the Heroku Toolbelt
-export PATH="/usr/local/heroku/bin:$PATH"
+source ~/.zsh/.zsh/colors.zsh
+source ~/.zsh/.zsh/setopt.zsh
+source ~/.zsh/.zsh/exports.zsh
+source ~/.zsh/.zsh/prompt.zsh
+source ~/.zsh/.zsh/completion.zsh
+source ~/.zsh/.zsh/aliases.zsh
+source ~/.zsh/.zsh/bindkeys.zsh
+source ~/.zsh/.zsh/functions.zsh
+source ~/.zsh/.zsh/history.zsh
+source ~/.zsh/.zsh/zsh_hooks.zsh
 
 precmd() {
   if [[ -n "$TMUX" ]]; then
